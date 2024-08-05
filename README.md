@@ -2,7 +2,7 @@
 
 ## Description
 
-Real time chat application using Node.js, Express.js, Socket.io and React.js. Users have to create an account and login to use the chat application. The application has a simple UI that allows users to send messages to each other in real time. The application also has a feature that allows users to create groups and edit their profile.
+Real time chat application using Node.js, Express.js, Socket.io and React.js. Users have to create an account and login to use the chat application. The application has a simple UI that allows users to send messages to each other in real time. The application also has a feature that allows users to create groups and edit their profile. The application uses JWT for authentication and MySQL for storing user data.
 
 ## Installation
 
