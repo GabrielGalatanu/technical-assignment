@@ -1,0 +1,57 @@
+@import "../main";
+
+.login-form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  border-radius: 10px;
+  padding: 40px 25px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  border: 2px solid lightgray;
+
+  .login-text {
+    @include comicNeue-bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    margin: 10px 0 0 0;
+  }
+
+  .email-and-password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .login-button-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .register-text {
+    @include comicNeue-regular;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .error-message {
+    @include comicNeue-regular;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}

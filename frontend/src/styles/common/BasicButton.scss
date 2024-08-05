@@ -1,0 +1,26 @@
+@import "../main.scss";
+
+.basic-button__container {
+  width: 100%;
+
+  .button {
+    @include comicNeue-bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    width: 100%;
+    text-transform: none;
+
+    &:hover {
+      background-color: #e6e6e6;
+    }
+  }
+}
+
+.basic-button__container--small {
+  .button {
+    font-size: 15px;
+    padding: 1px 2px;
+  }
+}

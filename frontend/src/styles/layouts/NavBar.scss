@@ -1,0 +1,26 @@
+@import "../main.scss";
+
+.nav-bar_container {
+  @include comicNeue-bold;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  z-index: 100;
+
+  .logout-button {
+    @include comicNeue-bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+  }
+}

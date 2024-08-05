@@ -1,0 +1,23 @@
+@import "../main.scss";
+
+.textfield__container {
+  width: 100%;
+
+  .MuiInputBase-root::before {
+    border-bottom: 2px solid white !important;
+  }
+
+  .MuiInput-underline::after {
+    border-color: white !important;
+  }
+
+  .MuiFormLabel-root {
+    @include comicNeue-bold;
+    color: white !important;
+  }
+
+  .MuiInputBase-input {
+    @include comicNeue-bold;
+    color: white !important;
+  }
+}

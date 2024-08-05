@@ -1,0 +1,19 @@
+@import "fonts";
+
+@mixin comicNeue-regular {
+  font-family: "ComicNeue", "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin comicNeue-bold {
+  font-family: "ComicNeue", "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin comicNeue-italic {
+  font-family: "ComicNeue", "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}

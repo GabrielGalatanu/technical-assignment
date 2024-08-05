@@ -1,0 +1,29 @@
+.image-drop-zone__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-drop-zone__container {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image-drop-zone__remove-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    // background-color: #000;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  

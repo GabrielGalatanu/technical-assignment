@@ -1,0 +1,88 @@
+.edit-room-modal__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .css-1lr746q {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    height: auto !important;
+    border-radius: 10px;
+  }
+  
+  .edit-room-modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  
+    .close-button {
+      color: #fff;
+  
+      width: 100%;
+  
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  
+    .submit-button {
+      background-color: white;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      border-radius: 5px;
+  
+      margin-top: 20px;
+      text-transform: none;
+  
+      &:hover {
+        background-color: #e6e6e6;
+      }
+    }
+  }
+  
+  .image-dropzone__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .edit-image-drop-zone__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .edit-image-drop-zone__container {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .edit-image-drop-zone__remove-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    // background-color: #000;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
